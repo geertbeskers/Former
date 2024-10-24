@@ -10,6 +10,7 @@ let package = Package(
     ],
     targets: [
         .target(name: "Former", path: "Former")
-    ]
+    ],
+    swiftLanguageVersions: [.v5]
 )
 
