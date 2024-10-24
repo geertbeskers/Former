@@ -42,7 +42,7 @@ open class TextFieldRowFormer<T: UITableViewCell>
     }
 
     @discardableResult
-    public final func onReturn(_ handler: @escaping ((String) -> Void)) -> Self {
+    public final func onReturnMethod(_ handler: @escaping ((String) -> Void)) -> Self {
         onReturn = handler
         return self
     }
